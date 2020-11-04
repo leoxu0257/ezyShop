@@ -25,7 +25,7 @@
         $unitPrice = $goods[$v[0]]['price'];
         $i = $i + $unitPrice * $v[1];
     }
-    echo"Kind：{$kind}<br/>Total Price:${$i}";
+    echo"Kind：{$kind}<br/>Total Price:{$i}";
     ?>
 </table>
 <a href="cart.php">Check Cart</a>
